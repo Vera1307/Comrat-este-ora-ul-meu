@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="icon" href="../images/Interbelic_Comrat_CoA.png">
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/script_time.js"></script>
+    <script src="../js/lightbox.js"></script>
+
+
+    <title>Город Комрат</title>
+</head>
+
+<body onload="getMyDates();">
+    
+    <header>
+        <img class="logo" src="../images/logo_1.png">
+        <navbar>
+            <a href="../index.html">Главная</a>
+            <a href="despre.html">Комрат</a>
+            <a href="exploreaza.html"class="active">Экскурсия</a>
+            <a href="contacte.html">Контакты</a>
+        </navbar>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+<!--
+        <div class="icons">
+            <a href="signIn.html"><i class="fas fa-sign-in-alt myIcon" title="Вход"></i></a>
+            <a href="signUp.html"><i class="fas fa-user-plus myIcon" title="Создать аккаунт" style="color: rgb(247, 245, 245);"></i></a>
+        </div>
+    -->
+
+    </header>
+
+    <main>
+
+        <section>
+     
+            <h1 class="centered">Достопримечательности города Комрат</h1>
+            <div class="galerie-container">
+
+            <div class="image-container">
+                <a href="../images/alleea_slava.jpg">
+                <img src="../images/alleea_slava.jpg">
+                <div class="image-overlay">
+                    <div class="image-text">Аллея славы гагаузского народа, где установлены бюсты видным тюркским деятелям, ученым, гагаузоведам. 
+                        По левую сторону расположены бюсты выдающихся политиков, по правую – деятелей культуры. 
+                        
+                    </div>
+                </div>
+                </a>
+           </div>
+
+            <div class="image-container">
+                <a href="../images/baner3.jpg">
+                    <img src="../images/baner3.jpg">
+                    <div class="image-overlay">
+                        <div class="image-text">Собор Святого Иоана. Точной даты основания храма нет.   
+                            Здание первого храма было деревянное, крепкое, на каменном фундаменте, с колокольней, устроенной на куполе. 
+                            Сначала был построен храм, а позднее колокольня.
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="image-container">
+                <a href="../images/baner2.jpg">
+                    <img src="../images/baner2.jpg">
+                    <div class="image-overlay">
+                        <div class="image-text">«Vinuri de Comrat» - первая и старейшая винодельня, 
+                                    расположенная на юге Молдовы,  в Гагаузии, Комрат. 
+                                    Винодельня была основана в 1897 году. 
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="image-container">
+                <a href="../images/img3_1.jpg">
+                    <img src="../images/img3_1.jpg">
+                    <div class="image-overlay">
+                        <div class="image-text">Турецкая библиотека имени Ататюрка в Комрате 
+                                    открылась 26 июня 1998 года при содействии турецкого агентства ТИКА. 
+                                    На момент открытия книжный Фонд насчитывал 300 единиц, а сегодня он насчитывает около 8 тысяч. </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="image-container">
+                <a href="../images/pametnik.jpg">
+                    <img src="../images/pametnik.jpg">
+                    <div class="image-overlay">
+                        <div class="image-text">Памятник ликвидаторам аварии на Чернобыльской АЭС. 
+                           Памятник был открыт 03 мая 2019 году. 
+                            Он расположен по улице Победа, чуть выше Памятника Освобождению города Комрат.
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+                    <div class="image-container">
+                        <a href="../images/stone_komrat.jpg">
+                            <img src="../images/stone_komrat.jpg">
+                            <div class="image-overlay">
+                                <div class="image-text">Памятник воздвигнут в честь основания города Комрат и 
+                                    расположен в центральном парке.</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <span>Данный веб-сайт был выполнен в рамках Региональной олимпиады: <br />
+            IT-технологии и не обязательно должен быть согласован с директором или представителем организации. </span> 
+        <br/><br /><br />
+        <span id='result'></span>  
+    </footer>
+
+    <script>
+        new SimpleLightbox({ elements: ".galerie-container a" });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Interbelic_Comrat_CoA.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <script src="js/script.js"></script>
+    <script src="js/script_time.js"></script>
+
+    <title>Комрат - мое место жительство</title>
+</head>
+
+<body onload="getMyDates();">
+    
+    <header>
+        <img class="logo" src="images/logo_1.png">
+        
+        <navbar >
+            <a href="index.html" class="active">Главная</a>
+            <a href="pages/despre.html">Комрат</a>
+            <a href="pages/exploreaza.html">Экскурсия</a>
+            <a href="pages/contacte.html">Контакт</a>
+        </navbar>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+       <!--
+        <div class="icons">
+            <a href="pages/signIn.html"><i class="fas fa-sign-in-alt myIcon" title="Вход"></i></a>
+            <a href="pages/signUp.html"><i class="fas fa-user-plus myIcon" title="Создать аккаунт" style="color: rgb(247, 245, 245);"></i></a>
+        </div>-->
+
+    </header>
+
+    <main>
+        <section id="index"> <br/>
+            <div class="index-info">
+                <h1>Комрат - мой город</h1> 
+                <br/>
+             <a href="pages/despre.html" class="custom-button">
+                    Узнать больше
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>Данный веб-сайт был выполнен в рамках Региональной олимпиады: 
+            <br />
+            IT-технологии и не обязательно должен быть согласован с директором 
+            или представителем организации. <br/><br /><br/> </span> 
+        <span id='result'></span>  
+    </footer>
+
+</body>
+</html>
